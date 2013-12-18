@@ -1,0 +1,8 @@
+language: objective-c
+xcode_project: "Travis Build Status.xcodeproj"
+xcode_scheme: travis
+notifications:
+  email:
+    on_success: always
+  webhooks:
+    - http://simonwesterlund.se/travis.php
