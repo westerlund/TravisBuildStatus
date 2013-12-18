@@ -28,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8041A8511860824C00EE7E21"
-               BuildableName = "Travis Build StatusTests.xctest"
-               BlueprintName = "Travis Build StatusTests"
-               ReferencedContainer = "container:Travis Build Status.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

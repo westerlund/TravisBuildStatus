@@ -11,25 +11,11 @@
 		8041A83F1860824C00EE7E21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8041A83D1860824C00EE7E21 /* InfoPlist.strings */; };
 		8041A8411860824C00EE7E21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8041A8401860824C00EE7E21 /* main.m */; };
 		8041A8451860824C00EE7E21 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8041A8431860824C00EE7E21 /* Credits.rtf */; };
-		8041A8541860824C00EE7E21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8041A8531860824C00EE7E21 /* XCTest.framework */; };
-		8041A8551860824C00EE7E21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8041A8341860824C00EE7E21 /* Cocoa.framework */; };
-		8041A85D1860824C00EE7E21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8041A85B1860824C00EE7E21 /* InfoPlist.strings */; };
-		8041A85F1860824C00EE7E21 /* travisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8041A85E1860824C00EE7E21 /* travisTests.m */; };
 		80FC351F1861F4190022B3F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC351E1861F4190022B3F7 /* AppDelegate.m */; };
 		80FC35221861F41F0022B3F7 /* SWWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC35211861F41F0022B3F7 /* SWWindow.m */; };
 		80FC35241861F4230022B3F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FC35231861F4230022B3F7 /* Images.xcassets */; };
 		80FC35261861F4670022B3F7 /* Travis Build Status-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80FC35251861F4670022B3F7 /* Travis Build Status-Info.plist */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8041A8561860824C00EE7E21 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8041A8291860824C00EE7E21 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8041A8301860824C00EE7E21;
-			remoteInfo = travis;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8041A8311860824C00EE7E21 /* Travis Build Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis Build Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,11 +27,7 @@
 		8041A8401860824C00EE7E21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../travisBuildStatus/main.m; sourceTree = "<group>"; };
 		8041A8421860824C00EE7E21 /* Travis Build Status-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Travis Build Status-Prefix.pch"; path = "../travisBuildStatus/Travis Build Status-Prefix.pch"; sourceTree = "<group>"; };
 		8041A8441860824C00EE7E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		8041A8521860824C00EE7E21 /* Travis Build StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Travis Build StatusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8041A8531860824C00EE7E21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8041A85A1860824C00EE7E21 /* Travis Build StatusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Travis Build StatusTests-Info.plist"; sourceTree = "<group>"; };
-		8041A85C1860824C00EE7E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8041A85E1860824C00EE7E21 /* travisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = travisTests.m; sourceTree = "<group>"; };
 		80FC351D1861F4190022B3F7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = travisBuildStatus/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		80FC351E1861F4190022B3F7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = travisBuildStatus/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		80FC35201861F41F0022B3F7 /* SWWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWWindow.h; path = travisBuildStatus/SWWindow.h; sourceTree = SOURCE_ROOT; };
@@ -63,15 +45,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8041A84F1860824C00EE7E21 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8041A8551860824C00EE7E21 /* Cocoa.framework in Frameworks */,
-				8041A8541860824C00EE7E21 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				8041A83A1860824C00EE7E21 /* Travis Build Status */,
-				8041A8581860824C00EE7E21 /* travisTests */,
 				8041A8331860824C00EE7E21 /* Frameworks */,
 				8041A8321860824C00EE7E21 /* Products */,
 			);
@@ -89,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				8041A8311860824C00EE7E21 /* Travis Build Status.app */,
-				8041A8521860824C00EE7E21 /* Travis Build StatusTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,24 +111,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8041A8581860824C00EE7E21 /* travisTests */ = {
-			isa = PBXGroup;
-			children = (
-				8041A85E1860824C00EE7E21 /* travisTests.m */,
-				8041A8591860824C00EE7E21 /* Supporting Files */,
-			);
-			path = travisTests;
-			sourceTree = "<group>";
-		};
-		8041A8591860824C00EE7E21 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8041A85A1860824C00EE7E21 /* Travis Build StatusTests-Info.plist */,
-				8041A85B1860824C00EE7E21 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,24 +131,6 @@
 			productReference = 8041A8311860824C00EE7E21 /* Travis Build Status.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8041A8511860824C00EE7E21 /* Travis Build StatusTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8041A8651860824C00EE7E21 /* Build configuration list for PBXNativeTarget "Travis Build StatusTests" */;
-			buildPhases = (
-				8041A84E1860824C00EE7E21 /* Sources */,
-				8041A84F1860824C00EE7E21 /* Frameworks */,
-				8041A8501860824C00EE7E21 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8041A8571860824C00EE7E21 /* PBXTargetDependency */,
-			);
-			name = "Travis Build StatusTests";
-			productName = travisTests;
-			productReference = 8041A8521860824C00EE7E21 /* Travis Build StatusTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,11 +139,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Simon Westerlund";
-				TargetAttributes = {
-					8041A8511860824C00EE7E21 = {
-						TestTargetID = 8041A8301860824C00EE7E21;
-					};
-				};
 			};
 			buildConfigurationList = 8041A82C1860824C00EE7E21 /* Build configuration list for PBXProject "Travis Build Status" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -224,7 +154,6 @@
 			projectRoot = "";
 			targets = (
 				8041A8301860824C00EE7E21 /* Travis Build Status */,
-				8041A8511860824C00EE7E21 /* Travis Build StatusTests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,14 +170,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8041A8501860824C00EE7E21 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8041A85D1860824C00EE7E21 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,23 +183,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8041A84E1860824C00EE7E21 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8041A85F1860824C00EE7E21 /* travisTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8041A8571860824C00EE7E21 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8041A8301860824C00EE7E21 /* Travis Build Status */;
-			targetProxy = 8041A8561860824C00EE7E21 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8041A83D1860824C00EE7E21 /* InfoPlist.strings */ = {
@@ -297,14 +202,6 @@
 			);
 			name = Credits.rtf;
 			path = ../travisBuildStatus;
-			sourceTree = "<group>";
-		};
-		8041A85B1860824C00EE7E21 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8041A85C1860824C00EE7E21 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -404,46 +301,6 @@
 			};
 			name = Release;
 		};
-		8041A8661860824C00EE7E21 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/travis.app/Contents/MacOS/travis";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "travis/travis-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "travisTests/Travis Build StatusTests-Info.plist";
-				PRODUCT_NAME = "Travis Build StatusTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		8041A8671860824C00EE7E21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/travis.app/Contents/MacOS/travis";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "travis/travis-Prefix.pch";
-				INFOPLIST_FILE = "travisTests/Travis Build StatusTests-Info.plist";
-				PRODUCT_NAME = "Travis Build StatusTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,15 +318,6 @@
 			buildConfigurations = (
 				8041A8631860824C00EE7E21 /* Debug */,
 				8041A8641860824C00EE7E21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8041A8651860824C00EE7E21 /* Build configuration list for PBXNativeTarget "Travis Build StatusTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8041A8661860824C00EE7E21 /* Debug */,
-				8041A8671860824C00EE7E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
